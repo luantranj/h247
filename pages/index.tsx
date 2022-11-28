@@ -34,8 +34,8 @@ const Home: NextPage = ({
       <title> TranMinhDinh.com </title>
       <section>
         <div className="mt-3 text-center">
-          <h1 className="text-[3rem]"> Welcome to TranMinhDinh.com </h1>
-          <p>A Collection of My Life Tasks</p>
+          <h1 className="text-[3rem]"> Welcome </h1>
+          <p>Knowledge is Power</p>
         </div>
       </section>
       <section className="flex flex-col items-center text-[1.15rem] mt-12">
