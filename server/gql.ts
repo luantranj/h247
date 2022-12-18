@@ -1,6 +1,6 @@
 export function discussionGql(ghDiscussionCategoryId: string | undefined) {
   return `{
-    repository(name: "tranminhdinh.com", owner: "ban-bien-tap") {
+    repository(name: "h247.tech", owner: "ban-bien-tap") {
       discussions(first: 100, categoryId: "${ghDiscussionCategoryId}") {
         nodes {
           url
@@ -29,7 +29,7 @@ export function discussionGql(ghDiscussionCategoryId: string | undefined) {
 // Single post
 export function discussionDetailGql(postId: number | undefined) {
   return `{
-    repository(owner: "ban-bien-tap", name: "tranminhdinh.com") {
+    repository(owner: "ban-bien-tap", name: "h247.tech") {
       discussion(number: ${postId}) {
         title
         bodyHTML
