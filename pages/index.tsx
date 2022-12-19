@@ -35,8 +35,7 @@ const Home: NextPage = ({
       <section>
         <div className="mt-3 text-center">
           <h1 className="text-[3rem]"> H247 Technologies </h1>
-          <p>How To Invest & Trade In Cryptocurrencies with Confidence</p>
-          <p>Brought to You by Luan</p>
+          <p>Học Trade là Học Làm Người Tự Do</p>
         </div>
       </section>
       <section className="flex flex-col items-center text-[1.15rem] mt-12">
