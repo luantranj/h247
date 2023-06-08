@@ -31,11 +31,11 @@ const Home: NextPage = ({
 
   return (
     <main className="layout">
-      <title> H247 Technologies </title>
+      <title> H247 Tech Official Website </title>
       <section>
         <div className="mt-3 text-center">
-          <h1 className="text-[3rem]"> H247 Tech, Inc. </h1>
-          <p>Level Up Your Copywriting with AI Prompts</p>
+          <h1 className="text-[3rem]"> H247 Technology</h1>
+          <p>A Home Office</p>
         </div>
       </section>
       <section className="flex flex-col items-center text-[1.15rem] mt-12">
